@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+:root{
+    --primary-color: #ffd1dc;
+    --btn-color : #ff00ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+}
+.hero{
+    text-align: center;
+    color: black;
+}
+.hero .hero-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 10vh;
+    color: black;
+}
+.hero .hero-img{
+    height: 10rem;
+    margin: 1rem 0rem;
+    clip-path: circle();
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inputArea{
+    display: block;
+    width: 80%;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid black
+}
+#btn-translate{
+    display: block;
+    background-color: var(--btn-color);
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border: none;
+    color: black;
+    margin-top: 1rem;
+    box-shadow: 0px 8px black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.5rem;
+}
+#outputArea{
+    display: block;
+    width: 80%;
+    height: 5rem;
+    padding: 1rem;
+    border: 2px solid black;
+    margin: 2rem 0rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
